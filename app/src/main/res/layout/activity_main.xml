@@ -8,41 +8,16 @@
     android:padding="16dp">
 
     <ImageView
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:id="@+id/image_one"
-        android:layout_width="150sp"
-        android:layout_height="150sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
 
-    <ImageView
-        android:layout_marginTop="16dp"
-        android:id="@+id/image_two"
-        android:layout_width="150sp"
-        android:layout_height="150sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_one"
-        />
-    <ImageView
-        android:layout_marginTop="16dp"
-        android:id="@+id/image_three"
-        android:layout_width="150sp"
-        android:layout_height="150sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_two"
-        />
-    <ImageView
-        android:layout_marginTop="16dp"
-        android:id="@+id/image_four"
-        android:layout_width="150sp"
-        android:layout_height="150sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_three"
-        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
